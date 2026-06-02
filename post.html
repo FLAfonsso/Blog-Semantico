@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Semântico - Post</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div id="navbar-inner">
+          <h2><a href="index.html">Blog</a></h2>
+          <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categorias.html">Categorias</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main id="posts-container">
+        <article class="post-full">
+          <img src="img/f1.jpg" alt="Passeio de barco" />
+          <div class="post-header">
+            <h1 class="post-title">Passeio de Barco no Por do Sol</h1>
+            <div class="post-meta">
+              <span class="author">Por: Pedro Afonso</span>
+              <span class="date">Publicado em: 15 de Janeiro, 2026</span>
+              <span class="category"
+                >Categoria:
+                <a href="categorias.html?cat=paisagens">Paisagens</a></span
+              >
+            </div>
+          </div>
+
+          <div class="post-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              incidunt harum laudantium excepturi amet, illum dolor officiis,
+              facilis consequuntur eius fugiat commodi nobis optio! Dicta sit
+              laboriosam vero cum nobis.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatum, quibusdam, quae, quos voluptate voluptas quod quia
+              voluptatibus quas doloribus quidem. Voluptatum, quia. Quisquam,
+              voluptatum.
+            </p>
+
+            <h2>Experiência Única</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              incidunt harum laudantium excepturi amet, illum dolor officiis,
+              facilis consequuntur eius fugiat commodi nobis optio! Dicta sit
+              laboriosam vero cum nobis.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatum, quibusdam, quae, quos voluptate voluptas quod quia
+              voluptatibus quas doloribus quidem. Voluptatum, quia. Quisquam,
+              voluptatum.
+            </p>
+
+            <h2>Dicas para quem quer fazer o mesmo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              incidunt harum laudantium excepturi amet, illum dolor officiis,
+              facilis consequuntur eius fugiat commodi nobis optio! Dicta sit
+              laboriosam vero cum nobis.
+            </p>
+
+            <ul>
+              <li>Leve protetor solar</li>
+              <li>Leve uma câmera para registrar o momento</li>
+              <li>Use roupas confortáveis</li>
+              <li>Aproveite cada momento</li>
+            </ul>
+          </div>
+
+          <div class="post-footer">
+            <div class="tags-share">
+              <span>Tags: </span>
+              <a href="categorias.html?tag=barco">#Barco</a>
+              <a href="categorias.html?tag=viagem">#Viagem</a>
+              <a href="categorias.html?tag=aventura">#Aventura</a>
+            </div>
+
+            <div class="share-buttons">
+              <span>Compartilhe:</span>
+              <a href="#" class="share-btn">Facebook</a>
+              <a href="#" class="share-btn">Twitter</a>
+              <a href="#" class="share-btn">WhatsApp</a>
+            </div>
+          </div>
+
+          <section class="comments">
+            <h3>Comentários (3)</h3>
+            <div class="comment">
+              <strong>João Silva</strong>
+              <span class="comment-date">10/01/2026</span>
+              <p>Que lugar incrível! Adorei o post, muito inspirador!</p>
+            </div>
+            <div class="comment">
+              <strong>Maria Santos</strong>
+              <span class="comment-date">12/01/2026</span>
+              <p>Já estive lá e realmente é maravilhoso. Recomendo!</p>
+            </div>
+
+            <form class="comment-form">
+              <h4>Deixe seu comentário</h4>
+              <input type="text" placeholder="Seu nome" required />
+              <textarea
+                placeholder="Seu comentário"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit">Enviar Comentário</button>
+            </form>
+          </section>
+        </article>
+      </main>
+
+      <aside id="sidebar">
+        <!-- Sidebar igual ao index.html -->
+        <section id="search-bar">
+          <h4>Busca</h4>
+          <form>
+            <input type="text" placeholder="Pesquise no blog" />
+            <input type="submit" value="Buscar" />
+          </form>
+        </section>
+
+        <section id="recent-posts">
+          <h4>Posts Recentes</h4>
+          <ul>
+            <li><a href="post.html?id=3">Viagem de Balão ao Amanhecer</a></li>
+            <li><a href="post.html?id=2">Aventura na Cachoeira Secreta</a></li>
+            <li><a href="post.html?id=1">Passeio de Barco no Por do Sol</a></li>
+          </ul>
+        </section>
+
+        <section id="categories">
+          <h4>Categorias</h4>
+          <nav>
+            <ul>
+              <li>
+                <a href="categorias.html?cat=paisagens">Paisagens (12)</a>
+              </li>
+              <li><a href="categorias.html?cat=aventuras">Aventuras (8)</a></li>
+              <li>
+                <a href="categorias.html?cat=viagens">Viagens longas (5)</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </aside>
+    </div>
+
+    <footer id="footer">
+      <h2>Blog</h2>
+      <p>Os melhores registros de aventuras</p>
+      <p>2026 &copy; FLAfonsso</p>
+    </footer>
+  </body>
+</html>

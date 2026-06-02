@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Semântico - Contato</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div id="navbar-inner">
+          <h2><a href="index.html">Blog</a></h2>
+          <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categorias.html">Categorias</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main id="posts-container">
+        <div class="page-header">
+          <h1>Entre em Contato</h1>
+          <p>Adoraríamos ouvir sua opinião, sugestões ou dúvidas!</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="info-card">
+              <h3>📧 E-mail</h3>
+              <p>contato@blogaventuras.com</p>
+            </div>
+            <div class="info-card">
+              <h3>📱 Telefone</h3>
+              <p>(11) 99999-9999</p>
+            </div>
+            <div class="info-card">
+              <h3>📍 Endereço</h3>
+              <p>Rua das Aventuras, 123 - São Paulo, SP</p>
+            </div>
+            <div class="info-card">
+              <h3>⏰ Horário</h3>
+              <p>Segunda a Sexta: 9h às 18h</p>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <h2>Envie uma mensagem</h2>
+
+            <div class="form-group">
+              <label for="name">Nome completo</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Assunto</label>
+              <select id="subject" name="subject">
+                <option value="">Selecione um assunto</option>
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="parceria">Parceria</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+          </form>
+        </div>
+
+        <section class="social-media">
+          <h2>Siga-nos nas redes sociais</h2>
+          <div class="social-links">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Twitter</a>
+            <a href="#" class="social-link">YouTube</a>
+          </div>
+        </section>
+      </main>
+
+      <aside id="sidebar">
+        <section id="search-bar">
+          <h4>Busca</h4>
+          <form>
+            <input type="text" placeholder="Pesquise no blog" />
+            <input type="submit" value="Buscar" />
+          </form>
+        </section>
+
+        <section id="categories">
+          <h4>Categorias</h4>
+          <nav>
+            <ul>
+              <li>
+                <a href="categorias.html?cat=paisagens">Paisagens (12)</a>
+              </li>
+              <li><a href="categorias.html?cat=aventuras">Aventuras (8)</a></li>
+              <li>
+                <a href="categorias.html?cat=viagens">Viagens longas (5)</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </aside>
+    </div>
+
+    <footer id="footer">
+      <h2>Blog</h2>
+      <p>Os melhores registros de aventuras</p>
+      <p>2026 &copy; FLAfonsso</p>
+    </footer>
+  </body>
+</html>
