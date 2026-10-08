@@ -44,3 +44,5 @@ Blog-Semantico/
 │ └── f3.jpg
 │
 └── README.md # Documentação
+
+Desenvolvido por Pedro Afonso.
