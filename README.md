@@ -6,8 +6,6 @@
 
 Um blog semântico e responsivo com tema dark, desenvolvido para compartilhar aventuras, viagens e experiências incríveis.
 
-![Blog Preview](https://via.placeholder.com/800x400?text=Blog+Preview)
-
 ## ✨ Funcionalidades
 
 - 🎨 **Tema Dark** - Design moderno e agradável para leitura noturna
